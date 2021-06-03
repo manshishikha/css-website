@@ -1,0 +1,27 @@
+
+.innercontainer{
+    width: 1920px;
+    height:580px;
+    background-image: url(279643.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-top: 50px;
+    padding-top: 300px;
+}
+
+.heading{
+    font-size: 100px;
+    color: white;
+    margin-top: 90px;
+    margin-left: 30px
+}
+
+.secondheading{
+    font-size: 50px;
+    color: white;
+    margin-top: -70px;
+    margin-left: 120px;
+}
