@@ -1,0 +1,51 @@
+.main-outer{
+    margin:20px 20px;
+    background-image:linear-gradient(to bottom right,rgb(255,175,189),rgb(255,195,160));
+    height:95vh;
+}
+
+.outer{
+    background-color: #F0F0F0;
+    height: 75vh;
+    width:35vw;
+    position:absolute;
+    left:35%;
+    top:20%;
+    border-radius: 15px;
+    transform:translate(-50%-50%);
+}
+
+.imglogo{
+    width:10vw;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:10vh;
+}
+
+.mix{
+    position: relative;
+    top:30vh;
+    left:15vh;
+    margin-top: 5vh;
+}
+
+.input{
+    width:20vw;
+    height: 5vh;
+    border-radius:15px;
+}
+
+.ani-btn{
+    width:10vw;
+    height: 5vh;
+    border-radius: 15px;;
+    border:none;
+    background-color: rgb(232,77,92);
+    box-shadow: 5px 5px 2.5px grey;
+    left:35%;
+    transition:transform 0.3s;
+}
+.ani-btn:hover{
+    transform: translate(2px,2px);
+}

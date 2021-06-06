@@ -1,0 +1,18 @@
+.box{
+    width:40vh;
+    height:50vh;
+    float:left;
+    background-color: aqua;
+    margin-left: 10vw;
+    margin-top:10vh;
+}
+
+.box-1{
+    padding: 20px 20px 20px 20px;
+    box-sizing: content-box;
+}
+
+.box-2{
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+}
