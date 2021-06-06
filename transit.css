@@ -1,0 +1,28 @@
+.outer{
+    height: 40vh;
+    width: 18vw;
+    margin-left: 40vw;
+    margin-top: 35vh;
+    box-shadow: 10px 10px 5px grey;
+    background-image: linear-gradient(to top left, rgb(9, 235, 81), rgb(9, 160, 235));
+    border-radius: 9px;
+    transition: transform 0.3s;
+}
+
+.outer:hover{
+    transform: translateY(-60px);
+}
+
+.inner{
+     height: 40vh;
+    width: 18vw;
+    margin-left: 15vw;
+    margin-top: -40vh;
+    box-shadow: 10px 10px 5px grey;
+    background-image: linear-gradient(to top left, rgb(235, 194, 9), rgb(235, 62, 9));
+    border-radius: 9px;
+    transition: transform 0.3s;
+}
+
+.inner:hover {
+    transform: translateX(-60px)
