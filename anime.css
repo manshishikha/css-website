@@ -1,0 +1,53 @@
+.outer{
+    margin:20px 20px 20px 20px;
+    background-color: beige;
+}
+
+.ani-back{
+    background-image: linear-gradient(to right,rgba(0,0,0,0.8), rgba(0,0,0,0.1)),url(cat.jpg);
+    background-position: center;
+    background-size: cover;
+    height:94vh;
+    width: 90vw;
+    opacity: 0;
+    clip-path:polygon(0 0, 70% 0, 60% 100%, 0 100%);
+    animation: to_right 1.5s cubic-bezier(.74,.86,.4,.92) forwards;
+}
+
+@keyframes to_right{
+    from{
+        width: 0;
+        opacity: 0;
+    }
+    to{
+        width: 100%;
+        opacity: 1;
+    }
+    }
+
+.head{
+    width: 90vw;
+    position: absolute;
+    text-align: right;
+    animation: to_bottom 1.5s cubic-bezier(.74,.86,.4,.92) forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+@keyframes to_bottom{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.h1{
+    font-size: 80px;
+    margin-top: 20%;
+}
+
+.h2{
+    font-size: 120px;
+    margin-top: 23%;
+}
